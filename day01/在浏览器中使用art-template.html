@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<!-- 引入art-template文件 -->
+<script src="node_modules/art-template/lib/template-web.js"></script>
+<script type="text/template" id="tem">
+
+    <div class="container">
+        <p>大家好，我叫：{{ name }}</p>
+        <p>我今年 {{ age }} 岁了</p>
+        <h1>我的性别是 {{ province }}</h1>
+        <p>我喜欢：{{each hobbies}} {{ $value }} {{/each}}</p>
+    </div>
+</script>
+<script>
+    const tel = template('tem', {
+        name: 'rose',
+        gender: 'male',
+        age: 22,
+        hobbies: ['吃饭', '睡觉', '打豆豆']
+    })
+    htmlTemplate = document.querySelector('body')
+    htmlTemplate.innerHTML = tel
+    console.log(tel)
+</script>
+</html>
+<!--
+
+1. 模版中script 加上id属性（id= 'ret'）
+
+2. 数据中template第一个参数为这个id对应的值，第二个参数为一个数据对象，用来代替id='ret'模版的{{}}
+
+-->
+

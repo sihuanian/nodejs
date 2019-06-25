@@ -1,0 +1,6 @@
+const b = require('./b')
+const c = require('./c')
+console.log(b.name)
+console.log(b.add(1, 8))
+console.log(b,c)
+console.log(c(3, 5))
