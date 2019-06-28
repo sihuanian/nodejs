@@ -1,0 +1,46 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "jack",
+            "gender": 0,
+            "age": 18,
+            "hobbies": "吃饭、睡觉、打豆豆"
+        },
+        {
+            "id": 2,
+            "name": "jack",
+            "gender": 0,
+            "age": 18,
+            "hobbies": "吃饭、睡觉、打豆豆"
+        },
+        {
+            "id": 3,
+            "name": "jack",
+            "gender": 0,
+            "age": 18,
+            "hobbies": "吃饭、睡觉、打豆豆"
+        },
+        {
+            "id": 4,
+            "name": "jack",
+            "gender": 0,
+            "age": 18,
+            "hobbies": "吃饭、睡觉、打豆豆"
+        },
+        {
+            "name": "李华",
+            "age": "22",
+            "gender": "0",
+            "hobbies": "唱，跳，rap",
+            "id": 5
+        },
+        {
+            "name": "韩梅梅",
+            "age": "20",
+            "gender": "1",
+            "hobbies": "李雷",
+            "id": 6
+        }
+    ]
+}
