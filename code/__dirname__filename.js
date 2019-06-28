@@ -1,0 +1,1 @@
+const dirname = require('./resource/__dirname__filename')

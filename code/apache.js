@@ -1,7 +1,7 @@
 const http = require('http')
 const fs = require('fs')
 
-const rootPath = 'E:/webStromProject/nodjs/day01/resource'
+const rootPath = 'E:/webStromProject/nodjs/code/resource'
 const server = http.createServer()
 server.on('request', function (request, response) {
     const url = request.url
